@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.header-text {
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.heading {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.form-label {
+  font-size: 10px;
+  color: blue;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.input-box {
+  width: calc(100% - (100% /14));
+  height: calc(100% + (25% / 4) + (25% / 3));
+  padding: 5px;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.password-label {
+  font-size: 10px;
+  color: #007bff;
+}
+
+.sign-in-button {
+  padding: 10px 10px;
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.small-text {
+  font-size: 8px;
+}
+
+.checkbox-label {
+  font-size: 8px;
+}
+
+.details-text {
+  font-size: 8px;
+}
+
+.Create-account-button {
+  max-width: 100%;
+  padding:10px 10px;
+  background-color: lightgray;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button + .button {
+  margin-left: 10px;
+}
+
